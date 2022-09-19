@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?><sqlb_project><db path="C:/Users/psydi/Downloads/Курсы тестирование ПО/movies.db" readonly="0" foreign_keys="1" case_sensitive_like="0" temp_store="0" wal_autocheckpoint="1000" synchronous="2"/><attached/><window><main_tabs open="structure browser pragmas query" current="3"/></window><tab_structure><column_width id="0" width="300"/><column_width id="1" width="0"/><column_width id="2" width="150"/><column_width id="3" width="1705"/><column_width id="4" width="0"/><expanded_item id="0" parent="1"/><expanded_item id="1" parent="1"/><expanded_item id="2" parent="1"/><expanded_item id="3" parent="1"/></tab_structure><tab_browse><current_table name="4,9:maindirectors"/><default_encoding codec=""/><browse_table_settings/></tab_browse><tab_sql><sql name="SQL 1">/*task 1*/
+SELECT *
+FROM movies
+WHERE year = 2010;
+
+/*task 2*/
+SELECT * 
+from people
+where name = &quot;Emma Stone&quot;;
+
+/*task 3*/
+SELECT *
+from movies
+WHERE year &gt;= 2018
+ORDER by title asc;
+
+/*task 4*/
+SELECT count(title)
+FROM movies
+INNER JOIN ratings
+on movies.id = ratings.movie_id
+WHERE rating = 10.0;
+
+SELECT count(title)
+FROM movies
+WHERE id in(
+SELECT movie_id
+FROM ratings
+WHERE rating = 10.0);
+
+/*task 5*/
+SELECT title
+FROM movies
+INNER JOIN ratings
+on movies.id = ratings.movie_id
+WHERE rating = 10.0;
+
+SELECT title
+FROM movies
+WHERE id in(
+SELECT movie_id
+FROM ratings
+WHERE rating = 10.0);
+
+/*task 6*/
+SELECT title
+from movies
+where title like &quot;%Harry%Potter%&quot;
+order by year asc;
+
+/*task 7*/
+Select avg (rating)
+from ratings
+INNER JOIN movies 
+on ratings.movie_id = movies.id
+WHERE year = 2012;
+
+Select avg (rating)
+from ratings
+WHERE movie_id IN ( 
+select id
+From movies
+WHERE year = 2012);
+
+/*task 8*/
+SELECT name
+from people
+INNER JOIN stars 
+on stars.person_id = people.id
+INNER JOIN movies
+on movies.id = stars.movie_id
+WHERE title = &quot;Toy Story&quot;;
+
+SELECT name
+from people
+WHERE id in ( 
+SELECT person_id
+FROM stars
+where movie_id in (
+SELECT id
+FROM movies
+WHERE title = &quot;Toy Story&quot;));
+
+/*task 9*/
+select name, birth
+from people
+inner JOIN directors
+on people.id = directors.person_id
+INNER JOIN movies
+on movies.id = directors.movie_id
+where title = &quot;Toy Story&quot;;
+
+select name, birth
+from people
+WHERE id in ( 
+SELECT person_id 
+from directors
+WHERE movie_id in (
+SELECT id 
+FROM movies
+where title = &quot;Toy Story&quot;));
+
+/*task 10*/
+SELECT title
+from movies
+INNER JOIN stars
+on movies.id = stars.movie_id
+INNER JOIN people
+on stars.person_id = people.id
+INNER JOIN ratings
+on ratings.movie_id = movies.id
+where name = &quot;Brad Pitt&quot; 
+ORDER by rating DESC
+LIMIT 5;
+
+/*task 11*/
+SELECT title
+FROM movies
+INNER JOIN stars
+ON movies.id = stars.movie_id
+INNER JOIN people
+ON stars.person_id = people.id
+WHERE name = &quot;Brad Pitt&quot; or name = &quot;Angelina Jolie&quot;
+GROUP by name
+HAVING name = 2;
+
+</sql><current_tab id="0"/></tab_sql></sqlb_project>

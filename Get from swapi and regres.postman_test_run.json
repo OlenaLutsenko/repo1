@@ -1,0 +1,282 @@
+{
+	"id": "1623f3f2-c51d-4aab-b13a-807a3b0a1be7",
+	"name": "Get from swapi and regres",
+	"timestamp": "2022-09-22T07:37:48.107Z",
+	"collection_id": "23125910-7dc54be4-063c-42c9-908a-dfb20a089092",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 0,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "e6ad4e51-16be-404f-8cb1-f8595ed8d3ea",
+			"name": "regres.in",
+			"url": "https://files.readme.io/86c6a9b-payments-sample-app_-_payments-sample-app_2020-03-10_05-16-12.png",
+			"time": 60,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				60
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "e598be76-19d4-4d00-8fae-14e64c285502",
+			"name": "swapi_people/5",
+			"url": "https://swapi.dev/api/people/5/",
+			"time": 96,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				96
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "083d8ec6-43af-4caa-ad76-b9a9af163cf0",
+			"name": "swapi_people_6",
+			"url": "https://swapi.dev/api/people/6/",
+			"time": 47,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				47
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "5579a571-e978-4691-85c7-40bc00cb5c24",
+			"name": "swapi_films_1",
+			"url": "https://swapi.dev/api/films/1/",
+			"time": 80,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				80
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "f1fd9795-a44d-4e04-bb67-9e16b4e715b2",
+			"name": "swapi_films_2",
+			"url": "https://swapi.dev/api/films/2/",
+			"time": 85,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				85
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "f989e4a9-6f3e-4031-8547-fdeaf5e9b872",
+			"name": "starship_9",
+			"url": "https://swapi.dev/api/starships/9/",
+			"time": 40,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				40
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "df430081-d7d4-4897-9338-0ef6a14cb45e",
+			"name": "https://apod.nasa.gov/apod/image/2007/NeowiseNebs_Oszywa_3000.jpg",
+			"url": "https://apod.nasa.gov/apod/image/2007/NeowiseNebs_Oszywa_3000.jpg",
+			"time": 2794,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				2794
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "f49baa36-ed66-46dd-a0df-ee329710163f",
+			"name": "https://apod.nasa.gov/apod/image/2007/NeowiseNebs_Oszywa_3000.jpg Copy",
+			"url": "https://apod.nasa.gov/apod/image/2007/NeowiseNebs_Oszywa_3000.jpg",
+			"time": 1699,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				1699
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "aab578a5-3a6c-42d3-96b7-cde2b28d1660",
+			"name": "swapi_starship_2",
+			"url": "https://swapi.dev/api/starships/2/",
+			"time": 47,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				47
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "9acfd6a8-827d-4b62-821d-9a455f100707",
+			"name": "swapi_vehicles_4",
+			"url": "https://swapi.dev/api/vehicles/4/",
+			"time": 40,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				40
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "ff3c75e8-cc6d-4cbe-9809-4e7e6ccfab0a",
+			"name": "swapi_Species",
+			"url": "https://swapi.dev/api/species/3/",
+			"time": 45,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				45
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "809b1814-1999-44dd-a822-7e6f3afa6e98",
+			"name": "swapi_planets",
+			"url": "https://swapi.dev/api/planets/1/",
+			"time": 41,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				41
+			],
+			"allTests": [
+				{}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 5074,
+	"collection": {
+		"requests": [
+			{
+				"id": "e6ad4e51-16be-404f-8cb1-f8595ed8d3ea",
+				"method": "GET"
+			},
+			{
+				"id": "e598be76-19d4-4d00-8fae-14e64c285502",
+				"method": "GET"
+			},
+			{
+				"id": "083d8ec6-43af-4caa-ad76-b9a9af163cf0",
+				"method": "GET"
+			},
+			{
+				"id": "5579a571-e978-4691-85c7-40bc00cb5c24",
+				"method": "GET"
+			},
+			{
+				"id": "f1fd9795-a44d-4e04-bb67-9e16b4e715b2",
+				"method": "GET"
+			},
+			{
+				"id": "f989e4a9-6f3e-4031-8547-fdeaf5e9b872",
+				"method": "GET"
+			},
+			{
+				"id": "df430081-d7d4-4897-9338-0ef6a14cb45e",
+				"method": "GET"
+			},
+			{
+				"id": "f49baa36-ed66-46dd-a0df-ee329710163f",
+				"method": "GET"
+			},
+			{
+				"id": "aab578a5-3a6c-42d3-96b7-cde2b28d1660",
+				"method": "GET"
+			},
+			{
+				"id": "9acfd6a8-827d-4b62-821d-9a455f100707",
+				"method": "GET"
+			},
+			{
+				"id": "ff3c75e8-cc6d-4cbe-9809-4e7e6ccfab0a",
+				"method": "GET"
+			},
+			{
+				"id": "809b1814-1999-44dd-a822-7e6f3afa6e98",
+				"method": "GET"
+			}
+		]
+	}
+}

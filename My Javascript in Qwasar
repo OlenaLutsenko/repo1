@@ -1,0 +1,818 @@
+3 quest
+
+ex00
+<!DOCTYPE html>
+<html>
+    <body>
+    </body>
+    <script>
+      var index = 0;
+
+      while (index < 100) {
+        console.log("I want to code");
+        index++ // <- you should increment
+      }
+    </script>
+</html>
+
+ex01
+
+<!DOCTYPE html>
+<html>
+    <body>
+    </body>
+    <script>
+      // function will print with console.log("my_first_function")
+      function my_first_function() {
+          console.log("my_first_function");
+      }
+             
+      my_first_function();
+    </script>
+</html>
+
+ex02
+
+<!DOCTYPE html>
+<html>
+    <body>
+    </body>
+    <script>
+      function detonation_in(seconds_left) {
+          console.log("detonation in... "+seconds_left+" secondes.");
+      }
+      
+      /*
+        1# declare a function called detonation_in
+        2# receives a parameter named seconds_left
+        3# include console.log("detonation in... "+seconds_left+" secondes.")
+        inside the block of the function
+      */
+
+       var timer = 10;
+
+      while (timer > 0) {
+        detonation_in(timer);
+        timer--
+      }
+    </script>
+</html>
+
+ex03
+
+<!DOCTYPE html>
+<html>
+    <body>
+    </body>
+    <script>
+      // Function will return the value 7
+      function my_get_seven() {
+       return 7; // XX
+      }
+      console.log(my_get_seven());
+    </script>
+</html>
+
+ex04
+
+<html>
+    <div id="my_box" style= "background-color: red; position: absolute; right: 70; bottom: 70; min-width: 100px; min-height: 100px"></div>
+    <script type="text/javascript"> 
+    var div = document.getElementById("my_box");
+
+       div.style.bottom = 0;
+       div.style.right = 0;
+     // YOUR CODE
+    </script>
+</html>
+
+Quest 2
+
+ex00
+<!DOCTYPE html>
+<html>
+    <body>
+    </body>
+    <script>
+      // Put your variable here
+      letter = 'c';
+    </script>
+</html>
+
+ex01
+<!DOCTYPE html>
+<html>
+    <body>
+    </body>
+    <script>
+      var my_string = "Learning is growing";
+    </script>
+</html>
+
+ex02
+
+<!DOCTYPE html>
+<html>
+    <body>
+    </body>
+    <script>
+      // Put your variable here
+      my_age = 34;
+      my_name = "Luke";
+      my_comma = ',';
+      console.log("Hello" + my_name + my_comma + "I'm" + my_age + "years old."); 
+    </script>
+</html>
+
+ex03
+
+<!DOCTYPE html>
+<html>
+    <body>
+    </body>
+    <script>
+      // Put your variable here
+      my_index = 0;
+      my_index++;
+      console.log(my_index);
+      my_index--;
+      my_index--;
+console.log(my_index);
+my_index++;
+my_index++;
+my_index++;
+console.log(my_index);
+    </script>
+</html>
+
+ex04
+
+<!DOCTYPE html>
+<html>
+    <body>
+    </body>
+    <script>
+      nbr = 10;
+
+      if (nbr > 20) {
+        console.log("nbr is greater than 20");
+      }
+      else {
+        console.log("nbr is less than 20");
+      }
+    </script>
+</html>
+
+ex05
+
+<!DOCTYPE html>
+<html>
+    <body>
+    </body>
+    <script>
+      var a = 10;
+      var  b = 9;
+      var c = 11;
+      var d = 10;
+      var y = 9;
+      var  z = 11;
+      if (a > b && a < c && a == d) {      
+        console.log("a is bigger than b AND smaller than c AND equal to d");
+      }
+      if (z || y > a) { 
+            console.log("z OR y are bigger than a");
+      }
+    </script>
+</html>
+
+ex06
+
+<!DOCTYPE html>
+<html>
+    <body>
+      <div id="my_box" style="height: 200px; width: 200px; border: solid 1px black; background-color: #FF0000">
+        Box
+      </div>
+    </body>
+    <script>
+      var my_box = document.getElementById("my_box");
+      my_box.style.backgroundColor = '#00FF00';
+    </script>
+</html>
+
+Quest01
+
+ex00
+
+<!DOCTYPE html>
+<html>
+    <body>
+          <h1>Hello World</h1>  
+    </body>
+</html>
+
+ex01
+
+<!DOCTYPE html>
+<html>
+    <body>
+      <div id="my_box" style="height: 200px; width: 200px; border: solid 1px black; background-color: #FF0000;">
+        Box
+      </div>
+    </body>
+</html>
+
+ex02
+
+<!DOCTYPE html>
+<html>
+    <body>
+      <table id="my_table">
+          <tr>
+              <th>Facts</th>
+          </tr>
+          <tr>
+              <td>Earth is round</td>
+          </tr>
+          <tr>
+              <td>The hashtag symbol is technically called an octothorpe</td>
+          </tr>
+          <tr>
+            <td>Some cats are allergic to people</td>
+        </tr>
+        <tr>
+            <td>The unicorn is the national animal of Scotland</td>
+        </tr>
+        <tr>
+            <td>The odds of getting a royal flush are exactly 1 in 649,740</td>
+        </tr>
+      </table>
+    </body>
+</html>
+
+ex03
+
+<!DOCTYPE html>
+<html>
+    <body>
+    </body>
+    <script>
+      // Put your variable here
+      age = 34;
+    </script>
+</html>
+
+ex04
+
+<!DOCTYPE html>
+<html>
+    <body>
+    </body>
+    <script>
+    console.log("My first print");
+    </script>
+</html>
+
+Quest04
+
+ex00
+
+    console.log("Hello World!")
+	
+ex01
+
+var my_age = 34;
+var my_name = "Luke";
+var my_comma = ',';
+
+console.log("Hello " + my_name + my_comma + " I'm "+ my_age + " years old.");
+
+ex02
+
+a = 10
+b = 9
+c = 11
+d = 10
+y = 9
+z = 11
+
+if (a > b && a < c && a == d) {
+  console.log("a is bigger than b AND smaller than c AND equal to d");
+}
+if (z || y > a) {
+  console.log("z OR y are bigger than a");
+}
+
+ex03
+
+// Following XXXXXX will be a function that will print using console.log("my_first_function")
+function my_first_function() {
+console.log("my_first_function")
+}
+
+
+my_first_function();
+
+
+My moving box group project
+
+My wrong variant
+
+<html>
+    <div id="my_box_realtime" style= "background-color: red; position: absolute; right: 70; bottom: 70; min-width: 100px; min-height: 100px"></div>
+    <script type="text/javascript">
+      // YOUR CODE
+	  var my_box = document.getElementById("my_box_realtime");
+
+      function move_box(seconds_left) {
+
+        var my_box.style.bottom = 70;
+        while (my_box.style.bottom != 0); {
+            my_box.style.bottom--
+        }
+        var my_box.style.right = 70;
+        while (my_box.style.right != 0); {
+            my_box.style.right--
+        }
+        myInterval = setInterval(function, 500);
+        function myStopFunction() {
+  clearInterval(myInterval);
+}
+      }
+  
+	  
+    </script>
+</html>
+
+Alex variant correct
+
+$>cat index.html
+<html>
+    <div id="my_box_realtime" style= "background-color: red; position: absolute; right: 70; bottom: 70; min-width: 100px; min-height: 100px"></div>
+    <script type="text/javascript">
+      var t = setInterval(move, 500);
+      var right = 70;
+      var bottom = 70;
+      var box = document.getElementById('my_box_realtime')
+
+      function move() {
+          if (right <=0 || bottom <=0) {
+              clearInterval(t);
+          } else {
+              right -= 1;
+              bottom -= 1;
+              box.style.right = right + "px";
+              box.style.bottom = bottom + "px";
+          }
+      }
+
+    </script>
+</html>
+$>
+
+Quest05
+
+ex01
+
+function my_is_negative(n) {
+    if (n < 0) {
+      return 0;
+    }
+    else {
+      return 1;
+    }
+  }
+  
+ // console.log(my_is_negative(-1));
+  // console.log(my_is_negative(1));
+  // console.log(my_is_negative(0));
+  
+  В терминале для виполнения программы пишем:
+  
+  из проджекта node my_is_negative.js (название файла)
+  
+  ex00
+  
+  var args = process.argv.slice(2);
+
+index = 0;
+
+while (index < args.length) {
+    console.log(args[index]);
+    index++;
+}
+
+В терминале для виполнения программы пишем:
+  
+  из проджекта node my_first_script_with_args.js (название файла)
+  
+  ex02
+  
+  function my_abs(param_1) {
+    if (param_1 < 0) {
+    return param_1 * -1;
+}
+    else {
+    return param_1
+}
+};
+
+//console.log(my_abs(-30))
+//console.log(my_abs(30))
+//console.log(my_abs(0))
+
+В терминале для виполнения программы пишем:
+  
+  из проджекта node my_abs.js (название файла)
+
+
+ex03
+
+  function my_add(param_1, param_2) {
+return param_1 + param_2;
+};
+
+//console.log(my_add(1, 2))
+
+В терминале для виполнения программы пишем:
+  
+  из проджекта node my_add.js (название файла)
+  
+  ex04
+  
+  function my_sub(param_1, param_2) {
+return param_1 - param_2;
+};
+
+
+// console.log(my_sub(10, 5))
+  
+  
+  
+  ex05
+  function my_mult(param_1, param_2) {
+return param_1 * param_2;
+};
+
+//console.log(my_mult(5, 5))
+  
+  ex06
+  function my_string_formatting(param_1, param_2, param_3) {
+    console.log("Hello, my name is " + param_1 + ' ' + param_2 ', ' + "I'm " + param_3 + '.');
+};
+
+
+my_string_formatting('john', 'doe', '37')
+my_string_formatting('Baby', 'Yoda', '50')
+my_string_formatting('Marie', 'Curie', '26')
+
+Quest 6
+
+ex00
+
+/*
+1#  What are the inputs?
+2# What are the outputs?
+3# What the function is doing?
+*/
+
+function my_string_index(haystack, needle) {
+    var index = 0;
+    while (index < haystack.length) {
+        if (haystack[index] == needle) {
+            return index;
+        }
+       index +=1;
+    }
+    return -1;
+};
+
+//console.log(my_string_index("heaa", "b"));
+
+ex01
+
+function my_upcase(param_1) {
+    return param_1.toUpperCase();
+
+};
+//console.log(my_upcase('aBc'));
+
+ex02
+
+function my_downcase(param_1) {
+    return param_1.toLowerCase();
+};
+//console.log(my_downcase('ABC'));
+//console.log(my_downcase(''));
+
+ex03 
+
+function my_size(param_1) {
+    return param_1.length;
+};
+//console.log(my_size('Aza'));
+//console.log(my_size(''));
+
+ex04
+
+function my_each(param_1) {
+   for(var i = 0; i < param_1.length; i++) {
+       console.log(param_1[i]);
+   }
+};
+
+//my_each(["Azochka", "Zira", "Sonia"]);
+//my_each(["", "", ""]);
+
+Quest 7
+
+ex00
+
+function my_map_mult_two(param_1) {
+    var array = [];
+
+    param_1.forEach(element => {
+        array.push(element * 2);
+    });
+    
+       return array;
+    };
+
+//console.log(my_map_mult_two([1, 2, 3, 4, 0]));
+//console.log(my_map_mult_two([]));
+
+ex01
+
+function my_count_on_it(param_1) {
+    var array = [];
+
+    param_1.forEach(element => {
+        array.push(element.length);
+    });
+    
+       return array;
+    };
+
+//console.log(my_count_on_it(["This"]));
+//console.log(my_count_on_it(["Abc", "AbcE Fgef1"]));
+
+ex02
+
+function my_array_uniq(param_1) {
+    var array = [];
+
+    param_1.forEach(element => {
+        if (!array.includes(element)) {
+            array.push(element);
+        }
+    });
+    return array;
+};
+//console.log(my_array_uniq([1, 1, 2]));
+//console.log(my_array_uniq([]));
+
+ex03
+
+function my_average_mark(param_1) {
+var mark = 0;
+
+param_1.forEach(element => {
+    mark = mark + element.integer;
+});
+
+    return param_1.length > 0 ? (mark / param_1.length).toFixed(1) : 0;
+};
+//console.log(my_average_mark([
+   //  {"string": "John", "integer": 7},
+   // {"string": "Margot", "integer": 8},
+   // {"string": "Jules", "integer": 4},
+  //  {"string": "Marco", "integer": 19}
+  // ]));
+
+My Levenshtein
+
+function my_levenshtein(param_1, param_2) {
+    if(param_1.length != param_2.length) {
+        return -1
+    }
+    result = 0
+    for (var index = 0; index < param_1.length; index++) {
+        if(param_1[index] != param_2[index]) {
+            result = result + 1
+        }
+    } 
+   return result             
+}
+
+// console.log(my_levenshtein('abc', 'abb'))
+// console.log(my_levenshtein('abc', 'a'))
+// console.log(my_levenshtein('abc', 'abc'))
+// console.log(my_levenshtein('', ''))
+
+My Spaceship
+
+function my_spaceship(letter_string) {
+    var result = "";
+    var x = 0;
+    var y = 0;
+    var direction = "up";
+    for(var index = 0; index < letter_string.length; index++) {
+        if(letter_string[index] == 'A') {
+            if(direction == "up") {
+                y--;
+            }
+            else if(direction == "down") {
+                y++;
+            }
+            else if(direction == "left") {
+                x--;
+            }
+            else if(direction == "right") {
+                x++;
+            }
+        }
+        else if(letter_string[index] == 'R') {
+            if(direction == "up") {
+                direction = "right";
+            }
+            else if(direction == "down") {
+                direction = "left";
+            }
+            else if(direction == "left") {
+                direction = "up";
+            }
+            else if(direction == "right") {
+                direction = "down";
+            }
+            }    
+        else if(letter_string[index] == 'L') {
+            if(direction == "up") {
+                direction = "left";
+            }
+            else if(direction == "down") {
+                direction = "right";
+            }
+            else if(direction == "left") {
+                direction = "down";
+            }
+            else if(direction == "right") {
+                direction = "up";
+            }
+        }
+    }
+        result = "{x: "+x+", y: "+y+", direction: '"+direction+"'}";
+        //console.log(result);
+        return result;
+}
+my_spaceship("RAALALL");
+
+
+My CSS is Iasy Iasy I
+
+index.html
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My_CSS</title>
+    <link href="./style.css" rel="stylesheet" type="text/css">
+</head>
+    <body>
+        <div class="My_CSS">
+            <div class="box-1">
+                <h2>HEADER</h2>
+            </div>
+            <div class="box-2">
+                <h2>HERO</h2>
+            </div>
+            <div class="container">
+                <div class="box-3">
+                    <h2>CONTENT</h2>
+                </div>
+                <div class="box-4">
+                    <h2>SIDEBAR</h2>
+                </div>
+            </div>
+            <div class="box-5">
+                <h2>FOOTER</h2>
+            </div> 
+        </div>
+    </body>
+</html>
+
+style.css
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-size: 22px;
+    text-align: center;
+    line-height: 128px;
+}
+.My_CSS{
+    display: flex;
+    flex-direction: column;
+}
+.My_CSS.div{
+        text-align: center;
+   }
+.box-1{
+    background-color: #00B7EB;
+}
+.box-2{
+    background-color: #FF0000;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+}
+.box-3{
+    background-color: #00FF00;
+    flex: 50%;
+}
+.box-4{
+    background-color: #800080;
+    flex: 50%;
+}
+.box-5{
+    background-color: #444444;
+}
+
+
+My Bouncing Box
+
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+    <body>
+        <html style='background-color: black'>
+  <div id="my_bouncing_box" style= "background-color: blue; border-radius: 3px; position: absolute; left: 0px; top: 0px; min-width: 100px; min-height: 100px; text-align: center; font-weight: bold; color: #999;" >lutsenko_o</div>
+  <script type="text/javascript">
+    var t = setInterval(moveChange, 1000);
+    var x = 0px;
+    var y = 0px;
+    var left = x;
+    var top = y;
+    var box = document.getElementById("my_bouncing_box")
+    function moveChange() {
+        if(left >=0 || top >=0) {
+            x++;
+            y++;
+            box.style.right = right + "px";
+            box.style.bottom = bottom + "px";
+        }
+        else {
+            box.style.top = top "px";
+            box.style.left = left+"px";
+        }
+    }
+  </script>
+  </body>
+</html> - Don't work, my code
+
+code of Alex
+
+    $>cat index.html
+<html style='background-color: black'>
+<div> 
+    <div id="my_bouncing_box" style= "background-color: blue; border-radius: 3px; 
+  position: absolute; left: 0px; top: 0px; min-width: 100px; min-height: 100px; 
+  text-align: center; font-weight: bold; color: #999;" >buniakin_o</div>
+</div>
+  <script type="text/javascript">
+    const main = document.querySelector('html');
+    const b = {x:0,y:0,w:100,h:100,dx:1,dy:1,speed:5,ani:{}}
+    const box = document.getElementById('my_bouncing_box');
+    main.append(box);
+    box.style.left = ${b.x}px;
+    box.style.top = ${b.y}px;
+    b.ani = requestAnimationFrame(superfly);
+
+    function superfly(){
+    if(b.x>window.innerWidth-b.w || b.x < 0){
+    b.dx *= -1;
+    }
+    if(b.y>window.innerHeight-b.h || b.y < 0 ){
+    b.dy *= -1;
+    }
+    b.x += b.dx * b.speed;
+    b.y += b.dy * b.speed;
+    box.style.left = ${b.x}px;
+    box.style.top = ${b.y}px;
+    b.ani = requestAnimationFrame(superfly);
+    }
+  </script>
+</html>
+$>
+
+
+My First Backend 
+
+Ruby Sinatra
+
+Java Script Express
+
+
+
